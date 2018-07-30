@@ -1,0 +1,58 @@
+{
+  "name": "micro-office-converter",
+  "version": "1.0.0",
+  "description": "Microservice for converting office documents using LibreOffice",
+  "private": true,
+  "author": {
+    "name": "Geir Gåsodden",
+    "email": "geir.gasodden@pythonia.no",
+    "url": "https://github.com/zrrrzzt"
+  },
+  "contributors": [
+    {
+      "name": "Jonas Maccyber Enge",
+      "email": "jonas.enge@gmail.com",
+      "url": "https://github.com/maccyber"
+    }
+  ],
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alheimsins/micro-office-converter.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Alheimsins/micro-office-converter/issues"
+  },
+  "homepage": "https://github.com/Alheimsins/micro-office-converter#readme",
+  "engines": {
+    "node": ">=10.7.0"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "standard && npm run test-deps && npm audit && ava",
+    "test-offline": "standard && ava",
+    "test-deps": "dependency-check . && dependency-check . --extra --no-dev",
+    "cleanup": "rm -rf dist",
+    "coverage": "nyc ava",
+    "coveralls": "nyc ava && nyc report --reporter=lcov && cat coverage/lcov.info | coveralls",
+    "standard-fix": "standard --fix",
+    "refresh": "rm -rf node_modules && rm package-lock.json && npm install"
+  },
+  "keywords": [
+    "LibreOffice",
+    "convert",
+    "microservice",
+    "micro"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "uuid": "3.3.2"
+  },
+  "devDependencies": {
+    "ava": "0.25.0",
+    "coveralls": "3.0.2",
+    "dependency-check": "3.2.0",
+    "nyc": "12.0.2",
+    "standard": "11.0.1"
+  }
+}
