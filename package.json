@@ -31,7 +31,7 @@
     "start": "node index.js",
     "test": "standard && npm run test-deps && npm audit && ava",
     "test-offline": "standard && ava",
-    "test-deps": "dependency-check . && dependency-check . --extra --no-dev",
+    "test-deps": "dependency-check ./package.json",
     "cleanup": "rm -rf dist",
     "coverage": "nyc ava",
     "coveralls": "nyc ava && nyc report --reporter=lcov && cat coverage/lcov.info | coveralls",

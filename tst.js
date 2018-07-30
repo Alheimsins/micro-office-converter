@@ -1,17 +1,14 @@
-const createDirs = require('./lib/create-directories')
+const converter = require('./index')
 
-/*
-const convert = require('./lib/convert')
 const options = {
   format: 'png',
   file: '../../../Downloads/myfile.pdf'
 }
 
-convert(options)
-*/
-async function mkdirs () {
-  const dirs = await createDirs()
-  console.log(dirs)
+async function convert (options) {
+  const { stdout, stderr } = await converter(options)
+  console.log(stdout)
+  console.log(stderr)
 }
 
-mkdirs()
+convert(options)
