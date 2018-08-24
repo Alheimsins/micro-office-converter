@@ -1,8 +1,8 @@
 const converter = require('./index')
 
 const options = {
-  format: 'png',
-  file: '../../../Downloads/myfile.pdf'
+  format: 'xhtml',
+  file: '../../../Downloads/digital-strategi.pdf'
 }
 
 async function convert (options) {
