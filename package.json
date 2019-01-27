@@ -57,7 +57,7 @@
     "uuid-random": "1.0.6"
   },
   "devDependencies": {
-    "ava": "1.0.1",
+    "ava": "1.2.0",
     "coveralls": "3.0.2",
     "dependency-check": "3.3.0",
     "micro-dev": "3.0.0",
