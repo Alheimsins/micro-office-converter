@@ -48,7 +48,7 @@
   "license": "MIT",
   "dependencies": {
     "cors": "2.8.5",
-    "express-fileupload": "1.1.5",
+    "express-fileupload": "1.1.6",
     "finalhandler": "1.1.2",
     "make-dir": "3.0.0",
     "markdown-it": "10.0.0",
