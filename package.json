@@ -58,7 +58,7 @@
   },
   "devDependencies": {
     "ava": "3.7.1",
-    "coveralls": "3.0.11",
+    "coveralls": "3.0.13",
     "dependency-check": "4.1.0",
     "micro-dev": "3.0.0",
     "nyc": "15.0.1",
