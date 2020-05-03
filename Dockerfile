@@ -2,7 +2,7 @@ FROM node:14.1.0-alpine3.11
 
 # Install LibreOffice and friends
 
-RUN apk add libreoffice openjdk11-jre
+RUN apk add libreoffice openjdk11-jre font-noto
 
 #### Begin setup ####
 
