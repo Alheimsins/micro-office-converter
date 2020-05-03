@@ -9,6 +9,21 @@ Microservice for converting office documents using LibreOffice
 $ curl --form file=@myfile.docx http://localhost/convert/pdf > myfile.pdf
 ```
 
+## Docker
+
+Build 
+
+```
+$ docker build -t micro-office-converter .
+```
+
+Run image
+
+```
+$ docker run -d -p 80:3000 --name micro-office-converter micro-office-converter
+```
+
+
 ## License
 
 [MIT](LICENSE)
