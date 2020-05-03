@@ -30,13 +30,12 @@
   "scripts": {
     "test": "standard && npm run test-deps && npm audit && ava",
     "test-offline": "standard && ava",
-    "test-deps": "dependency-check ./package.json",
+    "test-deps": "dependency-check --no-dev ./package.json",
     "cleanup": "rm -rf dist",
     "coverage": "nyc ava",
     "coveralls": "nyc ava && nyc report --reporter=lcov && cat coverage/lcov.info | coveralls",
     "standard-fix": "standard --fix",
     "refresh": "rm -rf node_modules && rm package-lock.json && npm install",
-    "dev": "micro-dev -H localhost",
     "start": "micro"
   },
   "keywords": [
@@ -60,7 +59,6 @@
     "ava": "3.8.1",
     "coveralls": "3.1.0",
     "dependency-check": "4.1.0",
-    "micro-dev": "3.0.0",
     "nyc": "15.0.1",
     "standard": "14.3.3"
   }
