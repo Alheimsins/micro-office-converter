@@ -25,7 +25,7 @@
   },
   "homepage": "https://github.com/Alheimsins/micro-office-converter#readme",
   "engines": {
-    "node": ">=14.1.0"
+    "node": ">=14.2.0"
   },
   "scripts": {
     "test": "standard && npm run test-deps && npm audit && ava",
