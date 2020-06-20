@@ -11,7 +11,13 @@ $ curl --form file=@myfile.docx http://localhost/convert/pdf > myfile.pdf
 
 ## Docker
 
-Build 
+Use the prebuild image 
+
+```
+$ docker run -d -p 80:3000 --name micro-office-converter alheimsins/micro-office-converter
+```
+
+Build it yourself
 
 ```
 $ docker build -t micro-office-converter .
