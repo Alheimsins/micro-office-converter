@@ -1,6 +1,6 @@
 {
   "name": "micro-office-converter",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Microservice for converting office documents using LibreOffice",
   "private": true,
   "author": {
