@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.com/Alheimsins/micro-office-converter.svg?branch=master)](https://travis-ci.com/Alheimsins/micro-office-converter)
+[![Build Status](https://travis-ci.com/Alheimsins/micro-office-converter.svg?branch=main)](https://travis-ci.com/Alheimsins/micro-office-converter)
 [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](https://github.com/feross/standard)
 
 # micro-office-converter
