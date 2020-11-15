@@ -9,6 +9,12 @@ Microservice for converting office documents using LibreOffice
 $ curl --form file=@myfile.docx http://localhost/convert/pdf > myfile.pdf
 ```
 
+If you convert files that generates multiple files, like docx with images til html, it will return a zip with all files. 
+
+```bash
+$ curl --form file=@myfile-with-image.docx http://localhost/convert/html > myfile.zip
+```
+
 ## Docker
 
 Use the prebuild image 
