@@ -48,7 +48,7 @@
   "dependencies": {
     "adm-zip": "0.5.1",
     "cors": "2.8.5",
-    "express-fileupload": "1.2.0",
+    "express-fileupload": "1.2.1",
     "finalhandler": "1.1.2",
     "make-dir": "3.1.0",
     "markdown-it": "12.0.4",
