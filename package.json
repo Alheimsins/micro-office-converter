@@ -46,7 +46,7 @@
   ],
   "license": "MIT",
   "dependencies": {
-    "adm-zip": "0.5.2",
+    "adm-zip": "0.5.3",
     "cors": "2.8.5",
     "express-fileupload": "1.2.1",
     "finalhandler": "1.1.2",
