@@ -1,4 +1,4 @@
-FROM node:14.16.1-alpine3.11
+FROM node:15.14.0-alpine3.11
 
 # Install LibreOffice and friends
 
